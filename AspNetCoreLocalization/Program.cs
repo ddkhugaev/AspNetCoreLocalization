@@ -1,3 +1,5 @@
+using AspNetCoreLocalization.Helpers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +15,9 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     .AddSupportedCultures(supportedCultures)
     .AddSupportedUICultures(supportedCultures);
 });
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<SecondLocalizer>();
 
 var app = builder.Build();
 
