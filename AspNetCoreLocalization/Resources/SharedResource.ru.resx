@@ -123,6 +123,9 @@
   <data name="home" xml:space="preserve">
     <value>Главная</value>
   </data>
+  <data name="home_page" xml:space="preserve">
+    <value>Домашняя Страница</value>
+  </data>
   <data name="privacy" xml:space="preserve">
     <value>Конфиденциальность</value>
   </data>

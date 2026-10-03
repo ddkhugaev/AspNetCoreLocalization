@@ -123,6 +123,9 @@
   <data name="home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="home_page" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
   <data name="privacy" xml:space="preserve">
     <value>Privacy</value>
   </data>

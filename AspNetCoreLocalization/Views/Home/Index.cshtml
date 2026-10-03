@@ -1,9 +1,7 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = SharedLocalizer["home_page"];
 }
 
 <p>
     <span data-tooltip="@SecondLocalizer["hello"]">@SharedLocalizer["hello"] (наведи на меня курсор)</span>
 </p>
-<p>CurrentCulture: @System.Globalization.CultureInfo.CurrentCulture.Name</p>
-<p>CurrentUICulture: @System.Globalization.CultureInfo.CurrentUICulture.Name</p>
