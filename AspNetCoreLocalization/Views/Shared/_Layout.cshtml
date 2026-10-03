@@ -20,10 +20,10 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index" data-tooltip="@SecondLocalizer["home"]">@SharedLocalizer["home"]</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy" data-tooltip="@SecondLocalizer["privacy"]">@SharedLocalizer["privacy"]</a>
                         </li>
                         <li>
                             <a class="nav-link text-dark" asp-area="" asp-controller="Language" asp-action="Index" asp-route-culture="ru">Русский</a>
@@ -35,13 +35,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Language" asp-action="Index" asp-route-culture="en">English</a>
                         </li>
                         <li>
-                            <a class="nav-link text-dark" asp-controller="Language" asp-action="Second" asp-route-culture="ru">Русский (Доп)</a>
+                            <a class="nav-link text-dark" asp-controller="Language" asp-action="Second" asp-route-culture="ru">Русский (доп)</a>
                         </li>
                         <li>
-                            <a class="nav-link text-dark" asp-controller="Language" asp-action="Second" asp-route-culture="os">Ирон (Доп)</a>
+                            <a class="nav-link text-dark" asp-controller="Language" asp-action="Second" asp-route-culture="os">Ирон (доп)</a>
                         </li>
                         <li>
-                            <a class="nav-link text-dark" asp-controller="Language" asp-action="Second" asp-route-culture="en">English (Доп)</a>
+                            <a class="nav-link text-dark" asp-controller="Language" asp-action="Second" asp-route-culture="en">English (доп)</a>
                         </li>
                     </ul>
                 </div>

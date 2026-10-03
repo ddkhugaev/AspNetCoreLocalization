@@ -120,4 +120,10 @@
   <data name="hello" xml:space="preserve">
     <value>Hello</value>
   </data>
+  <data name="home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="privacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
 </root>
